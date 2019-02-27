@@ -32,6 +32,16 @@ html, body {
 
 }
 
+#logo_iniciar{
+
+ position: absolute;
+ width: 200px;
+ height: 150px;
+ left: 80px;
+ top: 200px;
+
+
+}
 
 .home2{
   position: relative;
@@ -148,14 +158,16 @@ html, body {
 #boton_forward_instrucciones{
 
  position: absolute;
- width: 115px;
+ width: 80px;
  height: 35px;
- left: 122px;
+ left: 140px;
  top: 575px;
 
 
 
 }
+
+
 
 .instrucciones2{
 
@@ -173,7 +185,7 @@ html, body {
  width: 130px;
  height: 70px;
  left: 40px;
- top: 520px;
+ top: 530px;
 
 
 }
@@ -185,12 +197,20 @@ html, body {
  width: 130px;
  height: 70px;
  left: 190px;
- top: 520px;
+ top: 530px;
 
 
 
 }
 
+#boton_backward_instrucciones2{
+position: absolute;
+ width: 80px;
+ height: 35px;
+ left: 140px;
+ top: 490px;
+  
+}
 .creditos{
 
   position: relative;
@@ -214,3 +234,91 @@ html, body {
 
   display: none;
 }
+
+
+.juego{
+
+  position: relative;
+  background-image: url("../../www/img/juego/fondo_juego.jpg");
+  width: 360px;
+  height: 615px;
+}
+
+#tortuga{
+
+ position: absolute;
+ width: 150px;
+ height: 160px;
+ left: 105px;
+ top: 450px;
+}
+
+#vida1{
+
+ position: absolute;
+ width: 50px;
+ height: 50px;
+ left: 0px;
+ top: 0px;
+
+}
+
+#vida2{
+
+ position: absolute;
+ width: 50px;
+ height: 50px;
+ left: 40px;
+ top: 0px;
+  
+}
+
+#record_juego{
+  
+ position: absolute;
+ width: 90px;
+ height: 50px;
+ left: 2px;
+ top: 50px;
+}
+
+#boton_home_juego{
+
+ position: absolute;
+ width: 50px;
+ height: 50px;
+ right:3px;
+ top: 0px;
+  
+}
+
+#boton_pausa_juego{
+
+ position: absolute;
+ width: 48px;
+ height: 48px;
+ right:55px;
+ top: 3px;
+  
+  
+}
+
+#boton_right_juego{
+
+  position: absolute;
+ width: 50px;
+ height: 260px;
+ right:0px;
+ top: 165px;
+  
+}
+ 
+#boton_left_juego{
+
+ position: absolute;
+ width: 50px;
+ height: 260px;
+ left:0px;
+ top: 165px;
+  
+} 
