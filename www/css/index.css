@@ -1,0 +1,216 @@
+html, body {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      margin: 0 !important;
+      padding: 0 !important;
+      border: black solid 1px;
+      overflow-x: hidden;
+      overflow-y: hidden;
+      margin:0;
+      padding:0;
+    }
+    * {
+      margin: 0 !important;
+      padding: 0 !important;
+    }
+
+.home1{
+  position: relative;
+  background-image: url("../../www/img/fondo.jpg");
+  width: 360px;
+  height: 615px;
+}
+
+#boton_iniciar{
+
+ position: absolute;
+ width: 200px;
+ height: 150px;
+ left: 80px;
+ top: 465px;
+
+}
+
+
+.home2{
+  position: relative;
+  background-image: url("../../www/img/inicio/fondo_inicio.jpg");
+  width: 360px;
+  height: 615px;
+}
+
+#record_inicio{
+
+ position: absolute;
+ width: 200px;
+ height: 45px;
+ left: 80px;
+ top: 25px;
+
+}
+
+#boton_iniciar_inicio{
+
+ position: absolute;
+ width: 200px;
+ height: 95px;
+ left: 80px;
+ top: 170px;
+
+}
+
+#boton_instrucciones_inicio{
+
+ position: absolute;
+ width: 200px;
+ height: 95px;
+ left: 80px;
+ top: 270px;
+
+
+}
+
+#boton_creditos_inicio{
+
+ position: absolute;
+ width: 150px;
+ height: 102px;
+ left: 105px;
+ top: 505px;
+
+
+}
+
+
+.home2alt{
+  position: relative;
+  background-image: url("../../www/img/inicio/fondo_inicio.jpg");
+  width: 360px;
+  height: 615px;
+}
+
+
+#boton_continuar_inicio_alt{
+
+ position: absolute;
+ width: 200px;
+ height: 95px;
+ left: 80px;
+ top: 178px;
+
+}
+
+#boton_iniciar_inicio_alt{
+
+ position: absolute;
+ width: 200px;
+ height: 95px;
+ left: 80px;
+ top: 273px;
+
+}
+
+#boton_instrucciones_inicio_alt{
+
+ position: absolute;
+ width: 200px;
+ height: 95px;
+ left: 80px;
+ top: 368px;
+
+
+}
+
+#boton_creditos_inicio_alt{
+
+ position: absolute;
+ width: 150px;
+ height: 102px;
+ left: 105px;
+ top: 505px;
+
+
+}
+
+
+.instrucciones{
+
+  position: relative;
+  background-image: url("../../www/img/instrucciones/instrucciones_1.png");
+  width: 360px;
+  height: 615px;
+
+
+}
+
+
+#boton_forward_instrucciones{
+
+ position: absolute;
+ width: 115px;
+ height: 35px;
+ left: 122px;
+ top: 575px;
+
+
+
+}
+
+.instrucciones2{
+
+  position: relative;
+  background-image: url("../../www/img/instrucciones/instrucciones_2.png");
+  width: 360px;
+  height: 615px;
+
+
+}
+
+
+#boton_iniciar_instrucciones2{
+ position: absolute;
+ width: 130px;
+ height: 70px;
+ left: 40px;
+ top: 520px;
+
+
+}
+
+
+#boton_volver_instrucciones2{
+
+ position: absolute;
+ width: 130px;
+ height: 70px;
+ left: 190px;
+ top: 520px;
+
+
+
+}
+
+.creditos{
+
+  position: relative;
+  background-image: url("../../www/img/creditos/creditos.png");
+  width: 360px;
+  height: 615px;
+
+
+}
+
+#boton_volver_creditos{
+
+ position: absolute;
+ width: 130px;
+ height: 70px;
+ left: 115px;
+ top: 520px;
+
+}
+.ocultar{
+
+  display: none;
+}
